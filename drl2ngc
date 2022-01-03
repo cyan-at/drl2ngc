@@ -104,7 +104,7 @@ echo $numberOfHoles holes
 
 #prep the output file
 echo > $outputFile
-echo -e "G20 ;set to inches mode, as opposed to mm" >> $outputFile
+# echo -e "G20 ;set to inches mode, as opposed to mm" >> $outputFile
 echo -e "G90 ;absolute distance mode" >> $outputFile
 echo -e "G17 ;set helix axis of rotation to Z axis" >> $outputFile
 echo -e "G40 ;Cancel cutter radius compensation " >> $outputFile
