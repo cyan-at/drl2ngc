@@ -206,7 +206,7 @@ while [ true ]; do
 	
 done
 
-echo -e "\nM5 ;Stop spindle\nM2 ;End program" >> $outputFile
+# echo -e "\nM5 ;Stop spindle\nM2 ;End program" >> $outputFile
 
 echo -e "\n-----\nDone\nCalculated completion time: $millTime minutes\n"
 
